@@ -274,12 +274,12 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp...')}`);
                 let gp
                 try { gp = await conn.getProfilePicture(msg.key.remoteJid); } catch { gp = await conn.getProfilePicture(); }
                 const tag = '@' + msg.messageStubParameters[0].split('@')[0]
-                    var rashijson = await conn.groupMetadata(msg.key.remoteJid)
+                    var pinkjson = await conn.groupMetadata(msg.key.remoteJid)
                    var time = new Date().toLocaleString('HI', { timeZone: 'Asia/Kolkata' }).split(' ')[1]
    
                 await axios.get(gp, {responseType: 'arraybuffer'}).then(async (res) => {
                     //created by Raashii
-                await conn.sendMessage(msg.key.remoteJid, res.data, MessageType.image, {thumbnail: fs.readFileSync('./media/image/bye.jpg'), caption:  gb.message.replace('{gp}', '').replace('{gphead}', rashijson.subject).replace('{gpmaker}', rashijson.owner).replace('{gpdesc}', rashijson.desc).replace('{owner}', conn.user.name).replace('{time}', time).replace('{mention}', tag), contextInfo: {mentionedJid: [msg.messageStubParameters[0]]} }); });
+                await conn.sendMessage(msg.key.remoteJid, res.data, MessageType.image, {thumbnail: fs.readFileSync('./media/image/bye.jpg'), caption:  gb.message.replace('{gp}', '').replace('{gphead}', pinkjson.subject).replace('{gpmaker}', pinkjson.owner).replace('{gpdesc}', pinkjson.desc).replace('{owner}', conn.user.name).replace('{time}', time).replace('{mention}', tag), contextInfo: {mentionedJid: [msg.messageStubParameters[0]]} }); });
              
    } else if (gb.message.includes('{gif}')) {
                 //created by afnanplk
@@ -324,10 +324,10 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp...')}`);
                 let gp
                 try { gp = await conn.getProfilePicture(msg.key.remoteJid); } catch { gp = await conn.getProfilePicture(); }
                      var time = new Date().toLocaleString('HI', { timeZone: 'Asia/Kolkata' }).split(' ')[1]
-                  var rashijson = await conn.groupMetadata(msg.key.remoteJid)
+                  var pinkjson = await conn.groupMetadata(msg.key.remoteJid)
                 await axios.get(gp, {responseType: 'arraybuffer'}).then(async (res) => {
                     //created by Raashii
-                await conn.sendMessage(msg.key.remoteJid, res.data, MessageType.image, {thumbnail: fs.readFileSync('./media/image/wel.jpg'), caption:  gb.message.replace('{gp}', '').replace('{gphead}', rashijson.subject).replace('{gpmaker}', rashijson.owner).replace('{gpdesc}', rashijson.desc).replace('{owner}', conn.user.name).replace('{time}', time).replace('{mention}', tag), contextInfo: {mentionedJid: [msg.messageStubParameters[0]]} }); });
+                await conn.sendMessage(msg.key.remoteJid, res.data, MessageType.image, {thumbnail: fs.readFileSync('./media/image/wel.jpg'), caption:  gb.message.replace('{gp}', '').replace('{gphead}', pinkjson.subject).replace('{gpmaker}', pinkjson.owner).replace('{gpdesc}', pinkjson.desc).replace('{owner}', conn.user.name).replace('{time}', time).replace('{mention}', tag), contextInfo: {mentionedJid: [msg.messageStubParameters[0]]} }); });
 } else if (gb.message.includes('{gif}')) {
                    var time = new Date().toLocaleString('HI', { timeZone: 'Asia/Kolkata' }).split(' ')[1]
                const tag = '@' + msg.messageStubParameters[0].split('@')[0]
