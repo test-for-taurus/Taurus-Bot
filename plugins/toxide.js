@@ -10,7 +10,7 @@ Ktb.addCommand({ pattern: 'owner ?(.*)', fromMe: false, desc: 'owner number' }, 
 const vcard = 'BEGIN:VCARD\n' // metadata of the contact card
             + 'VERSION:3.0\n' 
             + 'FN:MUHAMMED [OWNER]\n' // full name
-            + 'ORG:MUHAMMED;\n' // 
+            + 'ORG:TAURUS;\n' // 
             + 'TEL;type=CELL;type=VOICE;waid=919961050829:+919961050829\n' // WhatsApp ID + phone number
             + 'END:VCARD'
 await message.client.sendMessage(message.jid,{displayname: "MUHAMMED [OWNER]", vcard: vcard}, MessageType.contact)
