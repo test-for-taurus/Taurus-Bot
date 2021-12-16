@@ -39,15 +39,15 @@ Asena.addCommand({pattern: 'git', fromMe: false, desc: Lang.WP}, (async (message
 
 
 
-☘︎ *ɢɪᴛʜᴜʙ ʟɪɴᴋ : http://www.github.com/muhammed-usrbot/taurus-bot .*
+☘︎ *ɢɪᴛʜᴜʙ ʟɪɴᴋ : http://www.github.com/muhammed-userbot/taurus-bot .*
 
 
 
-☘︎ *ᴀᴜᴅɪᴏ ᴄᴏᴍᴍᴀɴᴅs : https://github.com/muhammed-usrbot/taurus-bot/tree/master/uploads .*
+☘︎ *ᴀᴜᴅɪᴏ ᴄᴏᴍᴍᴀɴᴅs : https://github.com/muhammed-userbot/taurus-bot/tree/master/uploads .*
 
 
 
-☘︎ *sᴛɪᴄᴋᴇʀ ᴄᴏᴍᴍᴀɴᴅs : https://github.com/muhammed-usrbot/taurus-bot/tree/master/sticker .*
+☘︎ *sᴛɪᴄᴋᴇʀ ᴄᴏᴍᴍᴀɴᴅs : https://github.com/muhammed-userbot/taurus-bot/tree/master/sticker .*
 
 
 
