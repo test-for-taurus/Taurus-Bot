@@ -24,7 +24,7 @@
 </p>
        
   <p align="center">
-<a href="https://github.com/muhammed-usrbot"><img title="Author" src="https://img.shields.io/badge/Author-muhammed-usrbot?color=B62EE0&style=for-the-badge&logo=whatsapp"></a>
+<a href="https://github.com/muhammed-userbot"><img title="Author" src="https://img.shields.io/badge/Author-muhammed-usrbot?color=B62EE0&style=for-the-badge&logo=whatsapp"></a>
 </p>
 </div>
 <p align="center">
@@ -97,7 +97,7 @@ GET QR
 $ apt update
 $ apt install nodejs --fix-missing
 $ pkg install git
-$ git clone https://github.com/muhammed-usrbot/taurus-bot
+$ git clone https://github.com/muhammed-userbot/taurus-bot
 $ cd taurus-bot
 $ chmod +x *
 $ npm install @adiwajshing/baileys
@@ -107,7 +107,7 @@ $ node qr.js
       
 ```js
 SETUP
-$ git clone https://github.com/muhammed-usrbot/taurus-bot
+$ git clone https://github.com/muhammed-userbot/taurus-bot
 $ cd taurus-bot
 $ chmod +x *
 $ npm i
